@@ -25,6 +25,7 @@ This project contains end-to-end automated tests for an ecommerce website using 
 git clone https://github.com/anu123538/Testing-Ecommerce-website-using-playwright.git
 cd Testing-Ecommerce-website-using-playwright
 
+##Test case Table
 | Step | Action                                                                                      | Expected Result                                    | Actual Output                                                     | Status |
 | ---- | ------------------------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------- | ------ |
 | 1    | Navigate to homepage [https://ecommerce.calvinseng.com/](https://ecommerce.calvinseng.com/) | Homepage loads successfully                        | Homepage loaded with search bar visible                           | ✅ Pass |
