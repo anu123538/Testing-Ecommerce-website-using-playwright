@@ -1,6 +1,7 @@
 
 
 🛒 E-Commerce Testing Suite (Playwright)
+
 🌟 Project Overview
 This repository contains a robust automated testing suite for an E-Commerce application, focusing on critical user journeys such as shopping cart logic and checkout processes. The goal was to ensure data integrity and a seamless user experience using modern automation tools.
 +1
