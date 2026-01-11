@@ -1,6 +1,4 @@
-Oyaage GitHub repo eka mama check kala. Eke thiyana code eka Playwright use karala lassanata karala thiyanawa. Habai Recruiter kenek hari Technical Lead kenek hari oyaage profile ekata awama README.md eka thama issellama balanne.
 
-Oyaage me project eka "Pro Level" QA project ekak widiyata penna mama me README content eka hadala dunnna. Meka copy karala oyaage GitHub eke README.md file ekata danna.
 
 🛒 E-Commerce Testing Suite (Playwright)
 🌟 Project Overview
@@ -35,29 +33,29 @@ Data Integrity: Validating that product details in the cart match the selected i
 🚀 How to Run Locally
 Clone the repository:
 
-Bash
+
 
 git clone https://github.com/anu123538/Testing-Ecommerce-website-using-playwright.git
 Install dependencies:
 
-Bash
+
 
 npm install
 Run tests:
 
-Bash
+
 
 npx playwright test
 View Report:
 
-Bash
+
 
 npx playwright show-report
 📊 Testing Artifacts
 
-Test Cases: Designed to cover edge cases in e-commerce logic.
+      Test Cases: Designed to cover edge cases in e-commerce logic.
 
-Reports: Detailed execution logs and screenshots for failed steps.
+      Reports: Detailed execution logs and screenshots for failed steps.
 
 ✅ Test Case Table
 
