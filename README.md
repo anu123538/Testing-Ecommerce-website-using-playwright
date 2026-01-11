@@ -1,29 +1,63 @@
-# 🛒 Ecommerce Website Testing with Playwright
+Oyaage GitHub repo eka mama check kala. Eke thiyana code eka Playwright use karala lassanata karala thiyanawa. Habai Recruiter kenek hari Technical Lead kenek hari oyaage profile ekata awama README.md eka thama issellama balanne.
 
-This project contains end-to-end automated tests for an ecommerce website using [Microsoft Playwright](https://playwright.dev/). It tests essential functionalities such as user login, product search, cart management, checkout flow, and more.
+Oyaage me project eka "Pro Level" QA project ekak widiyata penna mama me README content eka hadala dunnna. Meka copy karala oyaage GitHub eke README.md file ekata danna.
 
-## 🚀 Project Features
+🛒 E-Commerce Testing Suite (Playwright)
+🌟 Project Overview
+This repository contains a robust automated testing suite for an E-Commerce application, focusing on critical user journeys such as shopping cart logic and checkout processes. The goal was to ensure data integrity and a seamless user experience using modern automation tools.
++1
 
-- Automated browser testing using Playwright
-- Cross-browser support: Chromium, Firefox, WebKit
-- Page Object Model structure for maintainable tests
-- CI-ready test scripts
-- Easily configurable test environment
+🛠️ Tech Stack
 
-## 🧰 Tech Stack
+Testing Framework: Playwright 
 
-- Node.js
-- Playwright
-- JavaScript or TypeScript (based on your setup)
-- Git + GitHub
 
-## 🛠️ Installation
+Language: JavaScript 
 
-1. **Clone the repository:**
 
-```bash
+Test Runner: Jest / Playwright Runner 
+
+
+Version Control: Git 
+
+🧪 Key Test Scenarios Covered
+Product Search: Verifying the search functionality for accurate results.
+
+
+Cart Operations: Adding/Removing items and validating real-time price updates.
+
+
+Checkout Workflow: Ensuring the end-to-end flow from cart to successful order placement.
+
+
+Data Integrity: Validating that product details in the cart match the selected items.
+
+🚀 How to Run Locally
+Clone the repository:
+
+Bash
+
 git clone https://github.com/anu123538/Testing-Ecommerce-website-using-playwright.git
-cd Testing-Ecommerce-website-using-playwright
+Install dependencies:
+
+Bash
+
+npm install
+Run tests:
+
+Bash
+
+npx playwright test
+View Report:
+
+Bash
+
+npx playwright show-report
+📊 Testing Artifacts
+
+Test Cases: Designed to cover edge cases in e-commerce logic.
+
+Reports: Detailed execution logs and screenshots for failed steps.
 
 ✅ Test Case Table
 
