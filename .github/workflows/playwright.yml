@@ -22,11 +22,11 @@ jobs:
       run: npm ci
 
     - name: Install Playwright Browsers
-      # sudo ඉවත් කර සාමාන්‍ය පරිදි browsers install කරන්න
+      
       run: npx playwright install --with-deps
 
     - name: Run Playwright tests
-      # Browser path එක සොයා ගැනීමට සහතික වීමට මෙය භාවිතා කරන්න
+     
       run: npx playwright test
 
     - name: Upload Playwright report
