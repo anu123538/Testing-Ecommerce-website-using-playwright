@@ -1,29 +1,62 @@
-# 🛒 Ecommerce Website Testing with Playwright
 
-This project contains end-to-end automated tests for an ecommerce website using [Microsoft Playwright](https://playwright.dev/). It tests essential functionalities such as user login, product search, cart management, checkout flow, and more.
 
-## 🚀 Project Features
+🛒 E-Commerce Testing Suite (Playwright)
 
-- Automated browser testing using Playwright
-- Cross-browser support: Chromium, Firefox, WebKit
-- Page Object Model structure for maintainable tests
-- CI-ready test scripts
-- Easily configurable test environment
+🌟 Project Overview
+This repository contains a robust automated testing suite for an E-Commerce application, focusing on critical user journeys such as shopping cart logic and checkout processes. The goal was to ensure data integrity and a seamless user experience using modern automation tools.
++1
 
-## 🧰 Tech Stack
+🛠️ Tech Stack
 
-- Node.js
-- Playwright
-- JavaScript or TypeScript (based on your setup)
-- Git + GitHub
+Testing Framework: Playwright 
 
-## 🛠️ Installation
 
-1. **Clone the repository:**
+Language: JavaScript 
 
-```bash
+
+Test Runner: Jest / Playwright Runner 
+
+
+Version Control: Git 
+
+🧪 Key Test Scenarios Covered
+Product Search: Verifying the search functionality for accurate results.
+
+
+Cart Operations: Adding/Removing items and validating real-time price updates.
+
+
+Checkout Workflow: Ensuring the end-to-end flow from cart to successful order placement.
+
+
+Data Integrity: Validating that product details in the cart match the selected items.
+
+🚀 How to Run Locally
+Clone the repository:
+
+
+
 git clone https://github.com/anu123538/Testing-Ecommerce-website-using-playwright.git
-cd Testing-Ecommerce-website-using-playwright
+Install dependencies:
+
+
+
+npm install
+Run tests:
+
+
+
+npx playwright test
+View Report:
+
+
+
+npx playwright show-report
+📊 Testing Artifacts
+
+      Test Cases: Designed to cover edge cases in e-commerce logic.
+
+      Reports: Detailed execution logs and screenshots for failed steps.
 
 ✅ Test Case Table
 
