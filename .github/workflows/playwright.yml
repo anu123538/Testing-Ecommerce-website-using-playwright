@@ -16,17 +16,17 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: lts/*
-        cache: 'npm' # වේගවත් බිල්ඩ් එකක් සඳහා cache එකතු කිරීම
+        cache: 'npm'
 
     - name: Install dependencies
-      run: npm ci # npm install වෙනුවට 'ci' භාවිතය වඩාත් සුදුසුයි (clean install)
+      run: npm ci
 
-    - name: Install Playwright Browsers with Deps
-      # Permission denied ගැටලුව සඳහා sudo භාවිතා කරමු
-      run: sudo npx playwright install --with-deps
+    - name: Install Playwright Browsers
+      # sudo ඉවත් කර සාමාන්‍ය පරිදි browsers install කරන්න
+      run: npx playwright install --with-deps
 
     - name: Run Playwright tests
-      # අවසර ලබා දී පරීක්ෂණ ධාවනය කරන්න
+      # Browser path එක සොයා ගැනීමට සහතික වීමට මෙය භාවිතා කරන්න
       run: npx playwright test
 
     - name: Upload Playwright report
